@@ -1,0 +1,92 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   background-color: #f4f4f4;
+   color: #333333;
+   line-height: 1.6;
+}
+
+header {
+   background-color: #30475e;
+   color: white;
+   text-align: center;
+   padding: 30px 20px;
+}
+
+header h1 {
+   margin: 0;
+   font-size: 2.5em;
+}
+
+.job-title {
+   font-size: 1.2em;
+   margin: 5px 0;
+}
+
+.contact {
+   margin-top: 10px;
+}
+
+.contact a {
+   color: white;
+}
+
+main {
+   max-width: 900px;
+   margin: 30px auto;
+   padding: 30px;
+   background-color: white;
+}
+
+section {
+   margin-bottom: 35px;
+}
+
+h2 {
+   color: #30475e;
+   border-bottom: 2px solid #30475e;
+   padding-bottom: 5px;
+}
+
+h3 {
+   color: #333333;
+   margin-bottom: 3px;
+}
+
+article {
+   margin-bottom: 25px;
+}
+
+.company {
+   margin-top: 0;
+}
+
+ul {
+   padding-left: 25px;
+}
+
+li {
+   margin-bottom: 5px;
+}
+
+.skills {
+   columns: 2;
+}
+
+footer {
+   background-color: #30475e;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
+
+@media (max-width: 600px) {
+   main {
+      margin: 0;
+      padding: 20px;
+   }
+
+   .skills {
+      columns: 1;
+   }
+}
