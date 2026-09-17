@@ -90,3 +90,9 @@ footer {
       columns: 1;
    }
 }
+.contact a:hover,
+.contact a:focus {
+   text-decoration: none;
+   outline: 2px solid white;
+   outline-offset: 3px;
+}
